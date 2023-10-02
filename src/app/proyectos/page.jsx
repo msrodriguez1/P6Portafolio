@@ -17,13 +17,13 @@ export default function page() {
           <h1 className="text-xl font-semibold">Mis Proyectos</h1>
         </div>
 
-        <div className="flex-grow flex flex-col justify-between p-4 ">
-          <div className="flex flex-row space-x-4 mt-6 rounded-md shadow-lg bg-white p-4">
+        <div className="flex-grow flex flex-col justify-center items-center p-4 ">
+          <div className="w-2/3 h-1/3 flex flex-row mt-6 rounded-md shadow-lg bg-white p-4">
             <div  className="flex flex-col">
             <h1 className=" font-medium mb-8 text-base">Métricas en Tiempo Real</h1>
-            <img src="/Migracion.png" alt="Migración" className="w-1/3 h-auto" />
+            <img src="/Migracion.png" alt="Migración" className="w-3/5 h-auto" />
             </div>
-            <ul  className="list-disc list-inside pl-5 mt-4 text-sm">
+            <ul  className="list-disc list-inside mt-4 text-sm">
               <li>Llamada a API de migración entre países</li>
               <li>Filtros para facilitar la búsqueda de datos</li>
               <li>Uso de recursos visuales para mostrar la data como gráficos</li>
@@ -31,13 +31,13 @@ export default function page() {
             </ul>
           </div>
 
-          <div className="flex flex-row mt-6  space-x-4  rounded-md overflow-hidden shadow-lg bg-white p-4">
+          <div className="w-2/3 h-1/3  flex flex-row mt-6 rounded-md overflow-hidden shadow-lg bg-white p-4">
           <div  className="flex flex-col">
 
             <h1 className=" font-medium mb-8 text-base">Sitio Web Restaurant</h1>
-            <img src="/Anakena.png" alt="Anakena" className="w-1/3 h-auto" />
+            <img src="/Anakena.png" alt="Anakena" className="w-3/5 h-auto" />
             </div>
-            <ul  className="list-disc list-inside pl-5 mt-4 text-sm">
+            <ul  className="list-disc list-inside mt-4 text-sm">
               <li>Sitio web multipágina: página de inicio, inspiraciones, carta y nosotros.</li>
               <li>Componente de gestión de reservas para el usuario(CRUD)</li>
               <li> Principales Tecnologías usadas: Javascript, Firebase</li>
@@ -45,13 +45,13 @@ export default function page() {
             </ul>
           </div>
 
-          <div className="flex flex-row space-x-4 mt-6 rounded-md overflow-hidden shadow-lg bg-white p-4">
-          <div  className="flex flex-col">
+          <div className=" w-2/3 h-1/3 flex flex-row mt-6 rounded-md overflow-hidden shadow-lg bg-white p-4">
+          <div  className="flex flex-col w-2/3">
 
             <h1 className=" font-medium mb-8 text-base">Perfumería Online</h1>
-            <img src="/Lelabo.png" alt="Le Labo" className="w-1/3 h-auto" />
+            <img src="/Lelabo.png" alt="Le Labo" className="w-3/5 h-auto" />
            </div>
-            <ul  className="list-disc list-inside pl-5 mt-4 text-sm">
+            <ul  className="list-disc list-inside mt-4 text-sm w-1/3">
               <li>Ecommerce de perfumería multipágina: catálogo de productos, página de producto, mi perfil y página de inicio.</li>
               <li>Registro de usuario e inicio de sesión</li>
               <li>Creación y edición de carrito de compras</li>
