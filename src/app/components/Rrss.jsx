@@ -9,7 +9,7 @@ function Rrss() {
     <nav  className="flex items-center justify-between p-4 gap-3 space-x-4">
 
         <FaTwitter/>
-        <a href="www.linkedin.com/in/maría-rodriguez-alliende-809301145">
+        <a href="https://www.linkedin.com/in/maría-rodriguez-alliende-809301145">
         <FaLinkedin/>
         </a>
         <a href="https://pin.it/7zztY8c">
