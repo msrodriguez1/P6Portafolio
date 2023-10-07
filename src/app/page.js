@@ -6,6 +6,7 @@ import Head from 'next/head';
 
 
 
+
 const experienceData = [
   {
     year: "2023-presente",
